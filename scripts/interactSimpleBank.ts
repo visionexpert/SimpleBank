@@ -3,7 +3,7 @@ import { vars } from "hardhat/config";
 import simpleBankABI from "../artifacts/contracts/SimpleBank.sol/SimpleBank.json";
 
 // command to run this script:
-// hh run scripts/interactSimpleBank.ts
+// npx hardhat run scripts/interactSimpleBank.ts
 // npx ts-node scripts/interact_with_runes_factory.ts
 
 const INFURA_API_KEY = vars.get("INFURA_API_KEY");
